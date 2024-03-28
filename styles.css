@@ -1,0 +1,25 @@
+*{
+    font-size: 12px;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.card-bg{
+    width:1000px;
+    height:600px;
+    background: lightgrey;
+    margin:auto;
+    margin-top: 100px;
+    display: flex;
+	-webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes tilt-in-top-1{0%{-webkit-transform:rotateY(30deg) translateY(-300px) skewY(-30deg);transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0}100%{-webkit-transform:rotateY(0deg) translateY(0) skewY(0deg);transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1}}@keyframes tilt-in-top-1{0%{-webkit-transform:rotateY(30deg) translateY(-300px) skewY(-30deg);transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0}100%{-webkit-transform:rotateY(0deg) translateY(0) skewY(0deg);transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1}}.card{
+    width:22.1%;
+    height:62.1%;
+    background: white;
+    border-radius:5px;
+    margin:auto;
+}
